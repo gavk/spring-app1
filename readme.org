@@ -1,0 +1,3 @@
+* Описание
+
+Сделано по уроку [[https://www.youtube.com/watch?v=nLCYk1ySY_U][Spring Framework. Урок 2: Первое приложение (IntelliJ Idea)]].
