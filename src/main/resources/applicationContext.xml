@@ -5,6 +5,11 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="musicBean"
-          class="com.github.gavk.springcource.RapMusic">
+          class="com.github.gavk.springcource.ClassicalMusic">
+    </bean>
+
+    <bean id="musicPlayer"
+          class="com.github.gavk.springcource.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
     </bean>
 </beans>
