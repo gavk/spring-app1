@@ -4,8 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="testBean"
-          class="com.github.gavk.springcource.TestBean">
-        <constructor-arg value="gavk"/>
+    <bean id="musicBean"
+          class="com.github.gavk.springcource.RapMusic">
     </bean>
 </beans>
